@@ -1,0 +1,12 @@
+# SQLite database
+data/*.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
