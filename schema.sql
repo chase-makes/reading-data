@@ -8,7 +8,8 @@ CREATE TABLE books (
      started_date DATE,
      finished_date DATE,
      rating INTEGER CHECK(rating BETWEEN 1 AND 5),
-     notes TEXT
+     notes TEXT,
+     UNIQUE(title, author)
 );
 
 CREATE TABLE reading_sessions (

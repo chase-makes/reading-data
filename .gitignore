@@ -10,3 +10,6 @@ __pycache__/
 
 # OS junk
 .DS_Store
+
+# virtual environment
+venv/
